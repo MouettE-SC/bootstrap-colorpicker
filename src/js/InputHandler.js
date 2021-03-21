@@ -34,9 +34,6 @@ class InputHandler {
       return;
     }
     this.input.on({
-      'keyup.colorpicker': $.proxy(this.onkeyup, this)
-    });
-    this.input.on({
       'change.colorpicker': $.proxy(this.onchange, this)
     });
   }
